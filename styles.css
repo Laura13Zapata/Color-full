@@ -3,90 +3,119 @@
   padding: 0;
   box-sizing: border-box;
 }
-.buttons{
+
+.title{
+  font-family: "monospace",cursive;
+}
+
+.buttons {
   display: flex;
   align-items: center;
+  justify-content: center;
   justify-content: space-evenly;
-  align-items: center;
-  margin:10px;
   padding: 10px;
-
+  margin: 10px;
 
 }
+
 #B1 {
   display: flex;
   justify-content: center;
-  background-color:red;
-  border:1px solid black;
+  border: 1px solid black;
+  background-color: red;
   border-radius: 100%;
   height: 30px;
   width: 30px;
-
 }
+
 #B2 {
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: orange;
   border-radius: 100%;
   height: 30px;
   width: 30px;
 }
-#B3{
+
+#B3 {
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #cd325c;
   border-radius: 100%;
   height: 30px;
   width: 30px;
 }
+
 #B4 {
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #41c43b;
   border-radius: 100%;
   height: 30px;
   width: 30px;
 }
+
 #B5 {
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #752dd2;
   border-radius: 100%;
   height: 30px;
   width: 30px;
 }
+
 #B6 {
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #e6d019;
   border-radius: 100%;
   height: 30px;
   width: 30px;
 }
+
 #B7 {
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #4da3b2;
   border-radius: 100%;
   height: 30px;
   width: 30px;
 }
+
 #B8 {
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #131cec;
   border-radius: 100%;
   height: 30px;
   width: 30px;
 }
+
 #B9 {
   display: flex;
   justify-content: center;
+  background-color: #15ea95;
   border: 1px solid black;
   border-radius: 100%;
   height: 30px;
   width: 30px;
+}
 
+#B10 {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  background-color: #0e0004;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
 }
 
 .title {
@@ -96,4 +125,9 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  padding: 30px;
+}
+
+h1 {
+  padding-bottom: 20px;
 }
