@@ -8,6 +8,7 @@ body{
 }
 .title{
   font-family: "monospace",monospace;
+
   color:white;
 }
 
@@ -122,8 +123,6 @@ body{
 }
 
 .title {
-  /* display: flex;
-  justify-content: center; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -131,6 +130,13 @@ body{
   padding: 30px;
 }
 
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
 h1 {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
