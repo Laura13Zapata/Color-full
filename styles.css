@@ -2,7 +2,10 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  background-color: white;
+}
+
+.title{
+  font-family: "monospace",monospace;
 }
 
 .buttons {
@@ -19,6 +22,7 @@
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: red;
   border-radius: 100%;
   height: 30px;
   width: 30px;
@@ -28,6 +32,7 @@
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: orange;
   border-radius: 100%;
   height: 30px;
   width: 30px;
@@ -37,6 +42,7 @@
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #cd325c;
   border-radius: 100%;
   height: 30px;
   width: 30px;
@@ -46,6 +52,7 @@
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #41c43b;
   border-radius: 100%;
   height: 30px;
   width: 30px;
@@ -55,6 +62,7 @@
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #752dd2;
   border-radius: 100%;
   height: 30px;
   width: 30px;
@@ -64,6 +72,7 @@
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #e6d019;
   border-radius: 100%;
   height: 30px;
   width: 30px;
@@ -73,6 +82,7 @@
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #4da3b2;
   border-radius: 100%;
   height: 30px;
   width: 30px;
@@ -82,6 +92,7 @@
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #131cec;
   border-radius: 100%;
   height: 30px;
   width: 30px;
@@ -90,6 +101,7 @@
 #B9 {
   display: flex;
   justify-content: center;
+  background-color: #15ea95;
   border: 1px solid black;
   border-radius: 100%;
   height: 30px;
@@ -100,14 +112,13 @@
   display: flex;
   justify-content: center;
   border: 1px solid black;
+  background-color: #0e0004;
   border-radius: 100%;
   height: 30px;
   width: 30px;
 }
 
 .title {
-  /* display: flex;
-  justify-content: center; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -115,6 +126,13 @@
   padding: 30px;
 }
 
+p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 50px;
+}
+
 h1 {
-  padding-bottom: 20px;
+  padding-bottom: 40px;
 }
