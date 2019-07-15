@@ -3,9 +3,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+body{
+  background-color: black;
+}
 .title{
-  font-family: "monospace",cursive;
+  font-family: "monospace",monospace;
+  color:white;
 }
 
 .buttons {
